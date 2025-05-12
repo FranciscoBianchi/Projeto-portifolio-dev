@@ -1,5 +1,5 @@
 * {
-  margin 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -17,4 +17,17 @@
     --gray-400: #878ea1;
     --gray-500: #c0c4ce;
     --gray-600: #e2e4e9;
+
+    --asap: "Asap", serif;
+    --title-lg: 700 56px/120% var(--asap);
+    --title-md: 700 24px/120% var(--asap);
+    --title-sm: 700 16px/120% var(--asap);
+    --text-code: 700 26px/120% var(--asap);
+
+    --inconsolata: "Inconsolata", serif;
+    --subtitle: 400 20px/120% var(--inconsolata);
+
+    --maven-pro: "Maven Pro", serif;
+    --text-md: 400 16px/140% var(--maven-pro);
+    --text-sm: 400 14px/140% var(--maven-pro);
 }
