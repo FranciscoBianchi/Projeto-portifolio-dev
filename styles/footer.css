@@ -1,0 +1,88 @@
+footer {
+    padding-block: 128px 200px;
+    background-image: url('../assets/images/Background_Contacts.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-title {
+    margin-bottom: 48px;
+}
+
+.footer-title h2 {
+    margin-block: 8px;
+}
+
+.social-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+}
+
+.social-card {
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    transition: .3s;
+}
+
+.social-card:hover {
+    outline: 1px solid var(--blue);
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icon span {
+    width: 28px;
+    height: 28px;
+    transition: .3s;
+}
+
+.linkedin-icon {
+    background-image: url('../assets/icons/LinkedinLogo.svg');
+}
+
+.social-card:nth-child(1):hover .linkedin-icon {
+    background-image: url('../assets/icons/LinkedinLogo-hover.svg');
+}
+
+.instagram-icon {
+    background-image: url('../assets/icons/InstagramLogo.svg');
+}
+
+.social-card:nth-child(2):hover > .social-icon span {
+    background-image: url('../assets/icons/InstagramLogo-hover.svg');
+}
+
+.github-icon {
+    background-image: url('../assets/icons/GithubLogo.svg');
+}
+
+.social-card:nth-child(3):hover > .social-icon span {
+    background-image: url('../assets/icons/GithubLogo-hover.svg');
+}
+
+.envelope-icon {
+    background-image: url('../assets/icons/EnvelopeSimple.svg');
+}
+
+.social-card:nth-child(4):hover > .social-icon span {
+    background-image: url('../assets/icons/EnvelopeSimple-hover.svg');
+}
+
+.social-arrow {
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/ArrowUpRight.svg');
+}
