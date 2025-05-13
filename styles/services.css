@@ -1,0 +1,30 @@
+#services {
+    padding-block: 88px 120px;
+    background-color: var(--gray-100);
+}
+
+.services-title {
+    margin-bottom: 56px;
+}
+
+.services-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-card {
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.service-card-image img {
+    width: 48px;
+}
+
+.service-card-title {
+    margin-block: 20px 8px;
+}
